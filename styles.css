@@ -1,0 +1,56 @@
+* {
+  background-color: papayawhip;
+  scroll-behavior: smooth;
+}
+*body {
+  font-size: large;
+}
+@media (max-width: 768px) {
+}
+
+/* Media query for screens with a maximum width of 576px (typical smartphone size) */
+@media (max-width: 576px) {
+  .about-me__slack-profilePicture {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    object-fit: contain;
+    margin-left: 0;
+  }
+}
+
+.about-me__text {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bold;
+}
+.slack-text {
+  color: black;
+  font: bold;
+  font-size: x-large;
+}
+.about-me__slack-username-text {
+  color: black;
+
+  flex-wrap: wrap;
+  font-size: x-large;
+}
+.about-me__slack-profilePicture {
+  object-fit: contain;
+  overflow: hidden;
+  width: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex: 1;
+}
+.github__button {
+  margin: auto;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  cursor: pointer;
+}
+.github__button:hover {
+  background-color: blue;
+  color: white;
+  outline: none;
+}

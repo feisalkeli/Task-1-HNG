@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <!-- About Me Section -->
+      <section>
+        <div class="about-me">
+          <h3 class="about-me__text">Welcome To About Me Page</h3>
+        </div>
+        <div class="about-me__slack-username">
+          <p class="about-me__slack-username-text" data-test-id="slackUsername">
+            <span class="slack-text"> Slack UserName:</span>
+            Feisal Migo
+          </p>
+        </div>
+        <h3 class="">Slack Profile Picture</h3>
+        <div class="about-me__slack-profilePicture">
+          <img
+            src="./assets/T05FFAA91JP-U05R3AF4GEA-3a296896a7ad-512.png"
+            alt="Feisal Migo"
+            data-test-id="slackDisplayImage"
+          />
+        </div>
+      </section>
+      <!-- Get Current Day Of The Week And Utc Time -->
+      <section class="current-day">
+        <div>
+          <div data-testid="currentDayOfTheWeek" id="currentDayOfTheWeek"></div>
+          <div data-testid="currentUTCTime" id="currentUTCTime"></div>
+        </div>
+      </section>
+
+      <!-- Track Section -->
+      <section>
+        <div class="track">
+          <p data-test-id="myTrack" class="track__text">
+            <span>Track:</span>Frontend
+          </p>
+        </div>
+      </section>
+
+      <!-- Github URL section -->
+      <section>
+        <div class="github" data-test-id="githubURL">
+          <a href="https://github.com/feisalkeli/Task-1-HNG" target="_blank"
+            ><button class="github__button">Click To Get Source Code</button></a
+          >
+        </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
